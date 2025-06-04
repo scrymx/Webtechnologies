@@ -43,6 +43,11 @@ a {
   text-decoration: wavy underline;
 }
 
+a:hover {
+  color: #2D5938;
+  text-decoration: none;
+}
+
 /* Main Content */
 main {
   margin-top: 20px;
@@ -53,10 +58,4 @@ img:fullscreen {
   height: 100%;
   object-fit: contain;
   background: #D93D04;
-}
-
-
-/* Footer */
-footer {
-  
 }
