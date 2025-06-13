@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cocktail Card</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+  <div class="card">
+    <h1 data-js="title"></h1>
+    <div data-js="photo" class="main-image"></div>
+
+    <button type="button" class="collapsible">Instructions 📝</button>
+    <div class="content">
+      <p data-js="instructions"></p>
+    </div> 
+
+    <button type="button" class="collapsible">Ingredients 🍋‍🟩</button>
+    <div class="content">
+      <p data-js="ingredients"></p>
+    </div> 
+
+    <button type="button" class="collapsible">Glass 🍸</button>
+    <div class="content">
+      <p data-js="glass"></p>
+    </div> 
+
+    <!-- Buttons -->
+ <div class="button-wrap">
+  <button data-js="btn-alcoholic">
+    <span>Alcoholic</span>
+  </button>
+</div>
+
+<div class="button-wrap">
+  <button data-js="btn-non-alcoholic">
+    <span>Non Alcoholic</span>
+  </button>
+</div>
+
+
+  </div>
+</body>
+</html>
