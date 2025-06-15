@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cocktail Card</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="./js/main.js" defer></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Card</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="card" id="drink-card">
-    <img id="drink-thumb" src="" alt="" style="display:flex;" />
-    <h2 id="drink-name">Loading...</h2>
+    <div class="card" id="drink-card">
+        <img id="drink-thumb" src="" alt="" style="display:flex;" />
+        <h2 id="drink-name">Loading...</h2>
 
-    <button type="button" class="collapsible">Glass 🍸</button>
-    <div class="content">
-      <p id="drink-glass"></p>
-    </div> 
+        <button type="button" class="collapsible">Glass 🍸</button>
+        <div class="content">
+            <p id="drink-glass"></p>
+        </div>
 
-    <button type="button" class="collapsible">Ingredients 🍋‍🟩</button>
-    <div class="content">
-      <p id="drink-ingredients"></p>
-    </div> 
+        <button type="button" class="collapsible">Ingredients 🍋‍🟩</button>
+        <div class="content">
+            <p id="drink-ingredients"></p>
+        </div>
 
-  <button type="button" class="collapsible">Instructions 📝</button>
-    <div class="content">
-      <p id="drink-instructions"></p>
-    </div> 
+        <button type="button" class="collapsible">Instructions 📝</button>
+        <div class="content">
+            <p id="drink-instructions"></p>
+        </div>
 
-  <div class="buttons">
-  <button class="btn" onclick="loadDrink('Non alcoholic'); play('https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-18146/zapsplat_cartoon_voice_funny_says_oh_no_19921.mp3')">non alcoholic 😔</button>
-    <button class="btn alcoholic" onclick="loadDrink('Alcoholic'); play('https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-41945/zapsplat_human_children_x5_under_10_english_cheer_44945.mp3')">yes alcoholic 🙂‍↕️</button>
-  </div>
+        <div class="buttons">
+            <button class="btn" onclick="loadDrink('Non alcoholic'); play('https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-18146/zapsplat_cartoon_voice_funny_says_oh_no_19921.mp3')">non alcoholic 😔</button>
+            <button class="btn alcoholic" onclick="loadDrink('Alcoholic'); play('https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-41945/zapsplat_human_children_x5_under_10_english_cheer_44945.mp3')">yes alcoholic 🙂‍↕️</button>
+        </div>
 
-</div>
+    </div>
 </body>
+
 </html>

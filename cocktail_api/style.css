@@ -48,10 +48,11 @@ body {
 
 }
 
-    .card img {
+  /* card image */
+  .card img {
   max-width: 70%;
   display: block;
-  margin: 0 auto 20px auto; /* top: 0, horizontal: auto, bottom: 20px */
+  margin: 0 auto 20px auto;
   border-radius: 50px;
 }
 
@@ -66,8 +67,8 @@ body {
     font-weight: bold;
     }
 
+    /* button non-alcoholic */
     .btn {
-       /* Basic Styling */
     --border-width: clamp(1px, 0.0625em, 4px);
     all: unset;
     padding: 20px;
@@ -110,8 +111,8 @@ body {
     0 0 0 0 rgba(255, 255, 255, 1);
     }
 
+    /* button alcoholic */
     .btn.alcoholic {
-       /* Basic Styling */
     --border-width: clamp(1px, 0.0625em, 4px);
     all: unset;
     padding: 20px;
@@ -158,7 +159,7 @@ body {
       margin-bottom: 20px;
     }
 
- /* Style the button that is used to open and close the collapsible content */
+ /* collapsible button */
 .collapsible {
     all: unset;
     padding-top: 20px;
@@ -185,7 +186,7 @@ body {
   transition: all var(--anim--hover-time) var(--anim--hover-ease);
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* collapsible card */
 .active, .collapsible:hover {
   background-color: #0000003e;
   transition: background-color .2s;
@@ -204,7 +205,7 @@ body {
     0 0 0 0 rgba(255, 255, 255, 1);
 }
 
-/* Style the collapsible content. Note: hidden by default */
+/* collapsible content*/
 .content {
  padding: 0;
   display: none;

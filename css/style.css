@@ -17,9 +17,26 @@ body {
 a {
   color: #D9A404;
   text-decoration: wavy underline;
+  padding-bottom: 20px;
 }
 
 a:hover {
   color: #2D5938;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-size: 40px;
+  background-color: #2D5938;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.main:hover {
+  background-color: #D9A404;
   text-decoration: none;
 }
